@@ -1,0 +1,27 @@
+{
+  "name": "youtube-archiver",
+  "version": "0.1.0",
+  "description": "bot designed for slack. When a user reacts to a message with a youtube link, store that link in a specific thread.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevWarr/Slack-YouTube-Archiver.git"
+  },
+  "keywords": [
+    "bot",
+    "youtube",
+    "slack"
+  ],
+  "author": "Devin Warrick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevWarr/Slack-YouTube-Archiver/issues"
+  },
+  "homepage": "https://github.com/DevWarr/Slack-YouTube-Archiver#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
