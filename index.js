@@ -1,11 +1,6 @@
-const express = require("express");
-const app = express();
+const server = require("./api/server.js");
 
-
-// Initial confirmation
-app.post("/", (req, res) =>{
-    const test = req.body;
-    if (test.type = "url_verification") {
-        res.send(200).json({challenge: test.challenge});
-    }
+const port = process.env.PORT || 4000;
+server.listen(port, () => {
+    console.log(`\n** Running on port ${port}**\n`);
 });
